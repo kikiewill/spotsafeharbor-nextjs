@@ -1,0 +1,2 @@
+import Layout from '../../components/Layout';
+export default function Page(){ return (<Layout><h1>Emergency Family Flood Pack</h1><ol><li>Prep (sandbags, elevate docs)</li><li>During (roads, power)</li><li>Cleanup + mold safety</li><li>Assistance (FEMA/CT)</li></ol></Layout>); }

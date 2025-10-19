@@ -1,0 +1,2 @@
+import Layout from '../components/Layout';
+export default function Page(){ return (<Layout><h1>Nexus Leaders</h1><p>Paid, proven mentors who teach purpose and tools—and ship receipts. Standard: 48‑hour builds; one week for complex matters.</p></Layout>); }

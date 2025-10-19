@@ -1,0 +1,2 @@
+import Layout from '../components/Layout';
+export default function Page(){ return (<Layout><h1>Submit a Nonprofit Project</h1><p>Submit by Thu 6pm ET for a weekend build. No client data. Describe the problem, not the person.</p></Layout>); }

@@ -1,0 +1,2 @@
+import Layout from '../../components/Layout';
+export default function Page(){ return (<Layout><h1>Connecticut Crisis Directory</h1><p>Seed entries will appear here. If you can't find what you need, call <a href='tel:211'>2‑1‑1</a>.</p></Layout>); }

@@ -1,0 +1,2 @@
+import Layout from '../../components/Layout';
+export default function Page(){ return (<Layout><h1>Emergency Family Fire Pack</h1><ol><li>Room map (two exits per room)</li><li>Go‑bag (meds, IDs, cash, pets)</li><li>Contacts card</li><li>After: insurance, utilities, temporary housing</li></ol></Layout>); }
