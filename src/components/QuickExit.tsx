@@ -1,0 +1,2 @@
+import { useEffect } from 'react';
+export default function QuickExit(){ const exit=()=>{try{window.location.replace('https://weather.com')}catch{}}; useEffect(()=>{ const onKey=(e:KeyboardEvent)=>{ if(e.key==='Escape') exit();}; window.addEventListener('keydown',onKey); return()=>window.removeEventListener('keydown',onKey)},[]); return <button className='quick-exit' onClick={exit} aria-label='Quick Exit to a safe site'>Quick Exit</button> }
