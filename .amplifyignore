@@ -1,0 +1,21 @@
+# Ignore files that should not be deployed
+amplify/
+.amplifyrc
+amplify.json
+
+# Node modules and build artifacts
+node_modules/
+.next/
+out/
+
+# Environment files
+.env*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
